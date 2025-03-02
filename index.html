@@ -3,53 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Official Wear Store</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Car Rental Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .hero {
+            background: url('car.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .cars {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .car {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Official Wear Store</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="home">
-        <h2>Welcome to Official Wear Store</h2>
-        <p>Find the best official wear for any occasion.</p>
-    </section>
-    
-    <section id="products">
-        <h2>Our Collection</h2>
-        <div class="product">
-            <img src="suit.jpg" alt="Men's Suit">
-            <h3>Men's Suit</h3>
-            <p>$199.99</p>
+    <div class="header">Car Rental Company</div>
+    <div class="hero">Find Your Perfect Ride</div>
+    <div class="cars">
+        <div class="car">
+            <h3>Sedan</h3>
+            <p>$40/day</p>
         </div>
-        <div class="product">
-            <img src="blazer.jpg" alt="Women's Blazer">
-            <h3>Women's Blazer</h3>
-            <p>$149.99</p>
+        <div class="car">
+            <h3>SUV</h3>
+            <p>$60/day</p>
         </div>
-    </section>
-    
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We provide high-quality official wear that makes you stand out.</p>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: support@officialwear.com</p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 Official Wear Store. All rights reserved.</p>
-    </footer>
+        <div class="car">
+            <h3>Luxury</h3>
+            <p>$100/day</p>
+        </div>
+    </div>
+    <div class="footer">Contact us at info@carrental.com</div>
 </body>
 </html>
